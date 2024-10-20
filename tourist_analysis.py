@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # 資料預處理
 # 清理空值資料
 # 讀取資料，從第一行開始往下讀取全部資料
-data = pd.read_csv('rowdata1.csv',
+data = pd.read_csv(r'‪C:\Users\user\Desktop\project\rowdata1.csv',
                    header=0,nrows=286,encoding='ansi',thousands=',') # thousands -->轉成數值型態
 
 # data.info() --> 看空值處理後之資料
